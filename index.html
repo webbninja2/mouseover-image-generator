@@ -1,0 +1,96 @@
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/custom.css">
+<style>
+</style>
+<div class="container">
+	<div class="row">
+		<div class="col-md-8">
+			<div class="page_title">
+				<div>
+					<h1>Mouseover Image Code Generator</h1>
+				</div>
+			</div>
+			<div class="col-12 px-0 mt-3">
+				<h5 class="pheading">Add the image link in the below input box or upload image and click the generator button.</h5>
+			</div>
+			<!-- Global Options -->
+			<div class="options">
+				<div class="row mb-2 mt-2 row-options">
+					<div class="col-md-3">
+						<label>Image URL:</label>
+					</div>
+					<div class="col-md-6">
+						<input type="text" id="imageURL" placeholder="Or enter image URL"  value="https://via.placeholder.com/150">
+					</div>
+					<div class="col-md-3">
+						<label for="imageFile" class="upload-icon">
+							<i class="fa fa-upload"></i>
+							<input type="file" id="imageFile" accept="image/*">
+						</label>
+					</div>
+				</div>
+				<div class="row mb-2 mt-2 row-options">
+					<div class="col-md-3">
+						<label>Hover Image URL:</label>
+					</div>
+					<div class="col-md-6">
+						<input type="text" id="hoverImageURL" placeholder="Or enter hover image URL"  value="https://via.placeholder.com/160">
+					</div>
+					<div class="col-md-3">
+						<label for="hoverImageFile" class="upload-icon">
+							<i class="fa fa-upload"></i>
+							<input type="file" id="hoverImageFile" accept="image/*">
+						</label>				
+					</div>
+				</div>
+				<div class="row mb-2 mt-2 row-options">
+					<div class="col-md-3">
+						<label>Image Alt Title:</label>
+					</div>
+					<div class="col-md-6">
+						<input type="text" id="altTitle" placeholder="Enter alt title" value="img">
+					</div>
+				</div>
+				<div class="row mb-2 mt-2 row-options">
+					<div class="col-md-3">
+						<label>Link URL:</label>
+					</div>
+					<div class="col-md-6">
+						<input type="text" id="linkURL" placeholder="Enter link URL">
+					</div>
+				</div>
+				<button id="generateImagePreview">Insert Image</button>
+			</div>
+			<!-- Global Options -->
+			<!-- Preview Section -->		
+			<div id="preview">
+				<h2>Preview, Hover the mouse over the image</h2>
+				<img id="imagePreview" src="#" alt="Image Preview">
+			</div>
+			<!-- Preview Section -->		
+			<!-- Images Dimensions Section -->		
+			<div class="generatorOptions">
+				<div class="optionlabel">Size:</div>
+				<div class="width-picker">
+					<label for="imageWidth">Width:</label><br>
+					<input type="range" id="imageWidth" min="10" max="500" step="1" value="200"><br>
+					<input type="number" id="imageWidthInput" min="10" max="500" step="1" value="200" style="width: 100px;">
+				</div>
+				<div class="height-picker">
+					<label for="imageHeight">Height:</label><br>
+					<input type="range" id="imageHeight" min="10" max="500" step="1" value="200"><br>
+					<input type="number" id="imageHeightInput" min="10" max="500" step="1" value="200" style="width: 100px;">
+				</div>
+				<button id="generateCodeButton">Generate Code</button>
+			</div>
+			<!-- Images Dimensions Section -->		
+			<div id="generatedCode">
+				<h5>HTML</h5>
+				<textarea id="generatedHTML" rows="10" cols="90" style="resize: vertical;"></textarea>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="assets/js/custom.js"></script>

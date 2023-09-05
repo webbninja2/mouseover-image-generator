@@ -1,0 +1,16 @@
+	.options {padding: 20px;background: #f4f5f6;border-radius: 4px;border: 2px solid #F0AD4D;}
+	h5.pheading {color: #337ab7;font-weight: 800;}
+	button#generateImagePreview {border: solid 1px #c1c1c1;padding: 15px;border-radius: 5px;background-color: #f0f0f0;}
+	#runCodeBtn{margin-top: 20px;border: solid 1px #c1c1c1;padding: 15px;border-radius: 5px;background-color: #f0f0f0;}
+	#generatedCode h5 {font-size: 16px;width: 100%;color: #fff;background-color: #337ab7;margin-bottom: 0px;padding: 0 10px;font-weight: bold;line-height: 36px;margin-top: 20px;}
+	.row.mb-2.mt-2.row-options {margin-top: 20px;margin-bottom: 20px;}
+	.generatorOptions {padding: 15px;border: solid 1px #aaa;border-radius: 5px;background-color: #fff;margin-bottom: 50px;margin-top: 50px;box-shadow: 0 0 5px 1px #d0d0d0;}
+	.optionlabel {font-size: 20px;font-weight: 700;color: #08c;}
+	#generateCodeButton {margin-top: 20px;border: solid 1px #c1c1c1;padding: 15px;border-radius: 5px;background-color: #f0f0f0;}
+	div#preview h2 {border-bottom: solid 1px #dfdfdf;margin: 5px;font-size: 20px;font-weight: 700;color: #08c;line-height: 35px;text-align: left;}
+	div#preview {border: solid 1px #aaa;border-radius:5px;background-color: #fff;margin-bottom: 50px;margin-top: 50px;box-shadow: 0 0 5px 1px #d0d0d0;text-align:center;}
+	#generatedCode h5 {font-size: 16px;width: 100%;color: #fff;background-color: #337ab7;margin-bottom: 0px;padding: 0 10px;font-weight: bold;line-height: 36px;margin-top: 20px;}
+	img#imagePreview {margin-top: 10px;margin-bottom: 20px;}
+	.upload-icon {position: relative;display: inline-block;cursor: pointer;}
+	.upload-icon input[type="file"] {position: absolute;left: 0;top: 0;opacity: 0;cursor: pointer;width: 100%;height: 100%;z-index: 2;}
+	.upload-icon i {position: relative;z-index: 1;background-color: #f0f0f0;padding: 10px 15px;border-radius: 5px;}
